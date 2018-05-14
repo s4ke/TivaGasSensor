@@ -1,0 +1,1 @@
+uncrustify.exe -c uncrustify_cfg/defaults.cfg -F autoformat_files.txt --no-backup
