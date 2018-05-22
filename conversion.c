@@ -21,7 +21,7 @@ _float_t conversion_voltage_to_pct(_float_t voltage) {
 	} else {
 		result = 100;
 	}
-	return result;
+	return MAX(result, 0.0f);
 	// Gerade:_float_t pct = (_float_t) ((((_double_t) voltage) - 313.533) / 8.03);
 	//
 	//_float_t A = 0.362f;
